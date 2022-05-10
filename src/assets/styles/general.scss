@@ -1,0 +1,18 @@
+@import "./config.scss";
+@import "./framework.scss";
+
+body {
+  background: $ct-body-bg;
+  font-family: $font-Montserrat;
+  font-size: $ct-body-font-size;
+}
+
+.container {
+  max-width: 90%;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.bd-example {
+  margin-top: 10px;
+}

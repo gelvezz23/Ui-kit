@@ -1,0 +1,59 @@
+@use "sass:math";
+@import "./breakpoint.scss";
+
+$base: 12;
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .col {
+    padding: 10px 20px;
+    width: 100%;
+
+    @media (max-width: $grid-breakpoints-m) {
+      padding: 10px 15px;
+    }
+  }
+
+  @media (min-width: $grid-breakpoints-s) {
+    @for $i from 1 through 12 {
+      .s#{$i} {
+        -ms-flex: 0 0 calc(100% * #{math.div($i, $base)});
+        flex: 0 0 calc(100% * #{math.div($i, $base)});
+        max-width: calc(100% * #{math.div($i, $base)});
+      }
+    }
+  }
+
+  @media (min-width: $grid-breakpoints-x) {
+    @for $i from 1 through 12 {
+      .x#{$i} {
+        -ms-flex: 0 0 calc(100% * #{math.div($i, $base)});
+        flex: 0 0 calc(100% * #{math.div($i, $base)});
+        max-width: calc(100% * #{math.div($i, $base)});
+      }
+    }
+  }
+
+  @media (min-width: $grid-breakpoints-m) {
+    @for $i from 1 through 12 {
+      .m#{$i} {
+        -ms-flex: 0 0 calc(100% * #{math.div($i, $base)});
+        flex: 0 0 calc(100% * #{math.div($i, $base)});
+        max-width: calc(100% * #{math.div($i, $base)});
+      }
+    }
+  }
+
+  @media (min-width: $grid-breakpoints-l) {
+    @for $i from 1 through 12 {
+      .l#{$i} {
+        -ms-flex: 0 0 calc(100% * #{math.div($i, $base)});
+        flex: 0 0 calc(100% * #{math.div($i, $base)});
+        max-width: calc(100% * #{math.div($i, $base)});
+      }
+    }
+  }
+}

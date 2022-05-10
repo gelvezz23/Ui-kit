@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;200;400;500;600;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,700;1,900&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* ===========================
+    * VARIABLES DE FUENTES *
+ ============================= */
+$font-bebasNeue: "Bebas Neue", cursive;
+$font-Montserrat: "Montserrat", sans-serif;
+$font-OpenSans: "Open Sans", sans-serif;
+$font-sourceSansPro: "Source Sans Pro", sans-serif;
+
+$ct-body-font-size: 1rem;
+$ct-body-font-weight: 400;
+$ct-body-line-height: 1.5;
+/* ===========================
+    * VARIABLES DE COLORES *
+ ============================= */
+
+$ct-blue: #0d6efd;
+$ct-indigo: #6610f2;
+$ct-purple: #6f42c1;
+$ct-pink: #d63384;
+$ct-red: #dc3545;
+$ct-orange: #fd7e14;
+$ct-yellow: #ffc107;
+$ct-green: #198754;
+$ct-teal: #20c997;
+$ct-cyan: #0dcaf0;
+$ct-white: #fff;
+$ct-gray: #6c757d;
+$ct-gray-dark: #343a40;
+$ct-gray-100: #f8f9fa;
+$ct-gray-200: #e9ecef;
+$ct-gray-300: #dee2e6;
+$ct-gray-400: #ced4da;
+$ct-gray-500: #adb5bd;
+$ct-gray-600: #6c757d;
+$ct-gray-700: #495057;
+$ct-gray-800: #343a40;
+$ct-gray-900: #212529;
+$ct-primary: #0d6efd;
+$ct-secondary: #6c757d;
+$ct-success: #198754;
+$ct-info: #0dcaf0;
+$ct-warning: #ffc107;
+$ct-danger: #dc3545;
+$ct-light: #f8f9fa;
+$ct-dark: #212529;
+$ct-primary-rgb: 13, 110, 253;
+$ct-secondary-rgb: 108, 117, 125;
+$ct-success-rgb: 25, 135, 84;
+$ct-info-rgb: 13, 202, 240;
+$ct-warning-rgb: 255, 193, 7;
+$ct-danger-rgb: 220, 53, 69;
+$ct-light-rgb: 248, 249, 250;
+$ct-dark-rgb: 33, 37, 41;
+$ct-white-rgb: 255, 255, 255;
+$ct-black-rgb: 0, 0, 0;
+$ct-body-color-rgb: 33, 37, 41;
+$ct-body-bg-rgb: 255, 255, 255;
+$ct-gradient: linear-gradient(
+  180deg,
+  rgba(255, 255, 255, 0.15),
+  rgba(255, 255, 255, 0)
+);
+
+$ct-body-color: #212529;
+$ct-body-bg: #fff;
