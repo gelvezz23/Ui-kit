@@ -64,8 +64,10 @@ function Typography() {
 
         <p>
           Puedes usar{" "}
-          <strong>{"<strong> o .strong"} para poner letra mas chica</strong> a tus
-          textos
+          <strong>
+            {"<strong> o .strong"} para poner letra mas pronunciada
+          </strong>{" "}
+          a tus textos
         </p>
       </div>
     </>

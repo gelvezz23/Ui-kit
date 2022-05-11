@@ -42,14 +42,14 @@ $ct-gray-600: #6c757d;
 $ct-gray-700: #495057;
 $ct-gray-800: #343a40;
 $ct-gray-900: #212529;
-$ct-primary: #0d6efd;
-$ct-secondary: #6c757d;
+$ct-primary: #00c357;
+$ct-secondary: #004a51;
 $ct-success: #198754;
 $ct-info: #0dcaf0;
 $ct-warning: #ffc107;
 $ct-danger: #dc3545;
 $ct-light: #f8f9fa;
-$ct-dark: #212529;
+$ct-dark: #010509;
 $ct-primary-rgb: 13, 110, 253;
 $ct-secondary-rgb: 108, 117, 125;
 $ct-success-rgb: 25, 135, 84;
@@ -70,3 +70,25 @@ $ct-gradient: linear-gradient(
 
 $ct-body-color: #212529;
 $ct-body-bg: #fff;
+/* ===========================
+    * BACKGROUNDS *
+ ============================= */
+
+.ct-bg-dark {
+  background-color: $ct-gray-dark;
+}
+
+.ct-bg-white {
+  background-color: $ct-white;
+}
+
+.ct-bg-danger {
+  background-color: $ct-danger;
+}
+.ct-bg-primary {
+  background-color: $ct-primary;
+}
+
+.ct-bg-secondary {
+  background-color: $ct-secondary;
+}

@@ -1,0 +1,68 @@
+@import "./general.scss";
+nav {
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+}
+nav.ct-between {
+  justify-content: space-between;
+}
+nav.ct-around {
+  justify-content: space-around;
+}
+
+.ct-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav.ct-1 {
+  height: 60px;
+}
+
+nav.ct-2 {
+  height: 70px;
+}
+nav.ct-3 {
+  height: 80px;
+}
+
+.burger {
+  height: 80px;
+  width: 80px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  height: 6px;
+  width: 48px;
+  border-radius: 3px;
+}
+
+.active .line:nth-child(1) {
+  transform: translateY(12px) rotate(135deg);
+}
+
+.active .line:nth-child(2) {
+  transform: scale(0);
+}
+
+.active .line:nth-child(3) {
+  transform: translateY(-16px) rotate(-135deg);
+}
+
+ul.ct-navbar-options {
+  display: flex;
+
+  li {
+    font-weight: 500;
+    padding: 0px 10px;
+    list-style: none;
+  }
+}

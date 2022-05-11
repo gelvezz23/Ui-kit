@@ -2,7 +2,10 @@
 @import "./breakpoint.scss";
 
 $base: 12;
-
+.ct-felx {
+  display: flex;
+  justify-content: center;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
