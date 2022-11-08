@@ -1,15 +1,24 @@
 @import "./general.scss";
+@import "./config.scss";
 nav {
   align-items: center;
   display: flex;
   padding: 1rem;
   width: 100%;
+  transition: all 0.5s ease;
 }
 nav.ct-between {
   justify-content: space-between;
 }
 nav.ct-around {
   justify-content: space-around;
+}
+.ct-icon-nav{
+  width: 3em;
+  height: auto;
+  img{
+    width: 100%;
+  }
 }
 
 .ct-navbar {
@@ -28,7 +37,7 @@ nav.ct-3 {
   height: 80px;
 }
 
-.burger {
+.burger, .burger-2, .burger-3, .burger-4 {
   height: 80px;
   width: 80px;
   border-radius: 8px;
@@ -65,4 +74,63 @@ ul.ct-navbar-options {
     padding: 0px 10px;
     list-style: none;
   }
+}
+
+.sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 225px;
+  height: 100%;
+  padding: 20px 0;
+  transition: all 0.5s ease;
+
+  ul{ 
+    list-style: none;
+    li{ 
+      
+      a{
+      display: block;
+      padding: 13px 30px;
+      color: rgb(241, 237, 237);
+      font-size: 16px;
+      
+      &:hover {
+        color: $ct-gray-dark;
+        background:white;
+      }
+      }
+    }
+  }
+a:hover,
+a.active{
+    
+    border-right: 2px solid rgb(5, 68, 104);
+}
+}
+.profile{ 
+  margin-bottom: 30px;
+    text-align: center;
+  h3{
+    margin: 10px 0 5px;
+}
+p{
+  font-size: 14px;
+}
+  img{
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+}
+
+body.active .sidebar{
+	left: -225px;
+}
+
+body.active .section{
+	margin-left: 0;
+	width: 100%;
 }

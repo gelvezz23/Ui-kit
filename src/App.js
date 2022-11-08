@@ -1,15 +1,14 @@
 import "./App.scss";
 import Navbar from "./components/Navbar";
-
 import Typography from "./components/Typography";
 
 function App() {
   return (
     <>
-      <header>
+      <header className="section">
         <Navbar />
       </header>
-      <section className="container">
+      <section className="container section">
         <Typography />
 
         <div className="col">

@@ -1,20 +1,10 @@
 import React from "react";
-
+import TittleOne from "./components/TittleOne";
 function Typography() {
   return (
     <>
       <section className="row">
-        <div className="bd-example col s12 x4 m4 l4">
-          <p className="lead">
-            Titulo sin class="h#" son etiquetas H1,H2,H3, etc ...
-          </p>
-          <h1>Titulo H1</h1>
-          <h2>Titulo H2</h2>
-          <h3>Titulo H3</h3>
-          <h4>Titulo H4</h4>
-          <h5>Titulo H5</h5>
-          <h6>Titulo H6</h6>
-        </div>
+        <TittleOne />
 
         <div className="bd-example col m6 s12 x4 m4 l4">
           <p className="lead">
@@ -28,15 +18,16 @@ function Typography() {
           <div className="h6">Titulo H6</div>
         </div>
       </section>
-
-      <div className="bd-example">
-        <h1 className="display-1">Display 1</h1>
-        <h2 className="display-2">Display 2</h2>
-        <h3 className="display-3">Display 3</h3>
-        <h4 className="display-4">Display 4</h4>
-        <h5 className="display-5">Display 5</h5>
-        <h6 className="display-6">Display 6</h6>
-      </div>
+      <section className="row">
+        <div className="bd-example">
+          <h1 className="display-1">Display 1</h1>
+          <h2 className="display-2">Display 2</h2>
+          <h3 className="display-3">Display 3</h3>
+          <h4 className="display-4">Display 4</h4>
+          <h5 className="display-5">Display 5</h5>
+          <h6 className="display-6">Display 6</h6>
+        </div>
+      </section>
 
       <div className="bd-example">
         <p className="lead">

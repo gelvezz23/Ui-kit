@@ -8,11 +8,17 @@ body {
 }
 
 .container {
-  max-width: 90%;
+  max-width: 100%;
   margin: 20px auto;
   overflow: hidden;
 }
 
 .bd-example {
   margin-top: 10px;
+}
+
+.section{
+  width: calc(100% - 225px);
+  margin-left: 225px;
+  transition: all 0.5s ease;
 }

@@ -1,15 +1,18 @@
 {
-  "name": "system-design",
-  "version": "0.1.0",
+  "name": "system_design",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.1.1",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@testing-library/user-event": "^14.4.3",
+    "highlight.js": "11.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-highlight": "0.14.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^3.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,8 +39,7 @@
     ]
   },
   "devDependencies": {
-    "sass": "^1.51.0",
-    "sass-loader": "^12.6.0",
-    "webpack": "^5.72.0"
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0"
   }
 }
